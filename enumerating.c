@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main () {
-  enum snooker
+  enum SNOOKER
     {RED=1, YELLOW, GREEN, BROWN, BLUE, PINK, BLACK};
 
   int total;
