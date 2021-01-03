@@ -1,3 +1,4 @@
+/*returning the size of data types using limits.h and the sizeof operator*/
 #include <stdio.h>
 #include <limits.h>
 
