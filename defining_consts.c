@@ -10,8 +10,8 @@
 #define SYSTEM "Windows"
 #endif
 
-#ifdef linux
-#define SYSTEM "Linux"
+#ifdef TARGET_OS_MAC
+#define SYSTEM "Apple"
 #endif 
 
 
@@ -19,7 +19,7 @@ int main () {
   printf ("\n \t %s \n \t %s \n", LINE, NAME);
   printf ("\n \t %s \n \t %s", LANG, LINE);
 
-  printf ("\n Operating system: %s \n", SYSTEM);
+  printf ("\n Operating system: %s \n");
   
   return 0;
 }
