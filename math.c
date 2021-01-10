@@ -15,5 +15,10 @@ int main() {
     printf("\t Variable a-=b (8-=4) = %d \n", a-=b);
     printf("\t Variable a*=b (8*=4) = %d \n", a*=b);
     printf("\t Variable a/=b (8/=4) = %d \n", a/=b);
+
+    printf("Comparing Values: \n");
+
+    printf("\tEquality (0==0): %d \n", a>b);
+    printf("\t Equality (0!=1): %d \n", a<b); 
     return 0;
 }
