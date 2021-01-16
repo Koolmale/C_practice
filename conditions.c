@@ -10,6 +10,6 @@ int main () {
 
     num = 1;
     printf("There %s ", (num ==1) ? "is" : "are");
-    printf("%d %s \n", num, (num==1) ? "apple" : "apples");
+    printf(" %d %s \n", num, (num==1) ? "apple" : "apples");
     return 0;
 }
