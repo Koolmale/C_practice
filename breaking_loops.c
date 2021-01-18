@@ -5,7 +5,7 @@ int main () {
 
     for (i = 1; i < 4; i++) {
         for (j = 1; j < 4; j++) {
-            
+
             if ( i == 1 && j == 1) {
             printf("Statement continues when i = %i and j = %i \n", i, j);
             continue;
@@ -18,4 +18,6 @@ int main () {
             printf("Running i = %i, j = %i \n", i, j);
         }
     }
+
+    return 0;
 }
