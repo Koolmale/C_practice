@@ -6,8 +6,8 @@ int cube( int y);
 
 int main () {
     int num;
-    // char msg[50] = "String  to be passed to a function";
-    //display(msg);
+    char msg[50] = "String  to be passed to a function";
+    display(msg);
     num = square (4);
     printf("4 x 4 = %i \n", num);
     printf("4 x 4 x 4 = %i \n", cube(4));
