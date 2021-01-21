@@ -20,6 +20,6 @@ void getnum() {
     printf("Square another number? Y or N: ");
     scanf("%c", &again);
 
-    if (again == 'Y') || (again == 'y') getnum();
+    if (again == 'Y' || again == 'y') getnum();
     else return;
 }
