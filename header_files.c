@@ -18,9 +18,8 @@ void getnum() {
     printf("%i squared is %i \n", num, square(num));
 
     printf("Square another number? Y or N: ");
-    scanf("%1s", &again);
+    scanf("%c", &again);
 
-    if (again == "Y") || (again == 'y') getnum();
+    if (again == 'Y') || (again == 'y') getnum();
     else return;
 }
-
