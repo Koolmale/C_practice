@@ -13,7 +13,8 @@ void menu () {
 
     printf("\n \t What would you like to do?");
     printf("\n\t 1. Square a number");
-    printf("\n\t 3. Exit");
+    printf("\n\t 2. Multiply two numbers");
+    printf("\n\t 3. Exit\n");
     scanf("%d", &option);
 
     action(option);
